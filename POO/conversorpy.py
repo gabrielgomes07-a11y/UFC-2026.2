@@ -1,4 +1,9 @@
 def conversor(num, base_e):
+    '''conversor universal.
+        funciona assim:
+        base de entrada -> decimal
+        decimal -> base de destino
+    '''
 
     saida = []
 
@@ -20,9 +25,10 @@ def conversor(num, base_e):
 
 
 def main():
-
+    # entrada em str
     number1 = input()
 
+    # entrada das bases
     bases = input().split()
     base_origem = int(bases[0])
     base_destino = int(bases[1])
